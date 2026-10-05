@@ -1,0 +1,64 @@
+{
+  "schema": "pointer-lab/1",
+  "document": {
+    "": null,
+    "arr": [
+      false,
+      0,
+      ""
+    ],
+    "a/b": "slash",
+    "/": "slash-name",
+    "~1": "tilde-one",
+    "obj": {
+      "01": "leading",
+      "-": "dash"
+    },
+    "\u00e9": "composed",
+    "e\u0301": "decomposed",
+    "%41": "percent",
+    "A": "letter",
+    "\u0000": "nul",
+    "empty": {
+      "": {
+        "": "adjacent"
+      }
+    },
+    "back\\slash": "backslash",
+    "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999": "numeric-name"
+  },
+  "pointers": [
+    {
+      "label": "case-1",
+      "pointer": "/"
+    },
+    {
+      "label": "case-2",
+      "pointer": "/arr/0"
+    },
+    {
+      "label": "case-3",
+      "pointer": "/arr/1"
+    },
+    {
+      "label": "case-7",
+      "pointer": "/~01"
+    },
+    {
+      "label": "case-10",
+      "pointer": "/arr/01"
+    },
+    {
+      "label": "case-13",
+      "pointer": "/arr/-"
+    },
+    {
+      "label": "case-16",
+      "pointer": "/arr/0/x"
+    },
+    {
+      "label": "case-18",
+      "pointer": "/e\u0301"
+    }
+  ]
+}
